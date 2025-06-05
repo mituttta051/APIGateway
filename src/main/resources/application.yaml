@@ -1,0 +1,12 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: APIGateway
+
+recipe:
+  service:
+    uri: http://localhost:8080
+schedule:
+  service:
+    uri: http://localhost:8081
